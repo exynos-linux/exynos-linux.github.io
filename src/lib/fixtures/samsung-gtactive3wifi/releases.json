@@ -1,0 +1,526 @@
+{
+	"schema": 1,
+	"generated": "2026-10-23T06:17:31Z",
+	"repo": "exynos-linux/samsung-gtactive3wifi",
+	"channels": [
+		{
+			"id": "samsung-gtactive3wifi_phosh_edge",
+			"ui": "phosh",
+			"flavour": "release",
+			"title": "Phosh",
+			"description": "Phosh for everyone: postmarketOS Duranium with the exynos-linux kernel and drivers.",
+			"prerelease": false,
+			"verified": true,
+			"latest": "26102118",
+			"versions": [
+				{
+					"version": "26102118",
+					"date": "2026-10-21T18:42:07Z",
+					"files": [
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26102118.raw.zst",
+							"size": 2036574208,
+							"sha256": "4f745f60edf94bb3e005fd5c99c3fbeba5f647420d8439ecfa8d60b6b3a9e944",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge/samsung-gtactive3wifi_phosh_edge_26102118.raw.zst",
+							"kind": "install-raw"
+						},
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26102118.efi",
+							"size": 61865984,
+							"sha256": "2560064b179416e909c2c406591c9783d2927925661582b6a0ab9d821f5260df",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge/samsung-gtactive3wifi_phosh_edge_26102118.efi",
+							"kind": "uki"
+						},
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26102118.usr-arm64.9de53ac1e4de87433f0738dfc573dd49.raw.zst",
+							"size": 1633921024,
+							"sha256": "4537a581c53675238db1d7e3d4c646e71deb29ed3cdbe919e66906d0075ff673",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge/samsung-gtactive3wifi_phosh_edge_26102118.usr-arm64.9de53ac1e4de87433f0738dfc573dd49.raw.zst",
+							"kind": "usr"
+						},
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26102118.usr-arm64-verity.9de53ac1e4de87433f0738dfc573dd49.raw.zst",
+							"size": 12582912,
+							"sha256": "71bb2c095c2cf14e68a656de368a76cb97163f15f123525582158064afe61d32",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge/samsung-gtactive3wifi_phosh_edge_26102118.usr-arm64-verity.9de53ac1e4de87433f0738dfc573dd49.raw.zst",
+							"kind": "usr-verity"
+						},
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26102118.dev-tools-sysext-arm64.raw.zst",
+							"size": 187695104,
+							"sha256": "6cba14036b405bdab70752bef31607e54163162747c7d4e8f56e262514080329",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge/samsung-gtactive3wifi_phosh_edge_26102118.dev-tools-sysext-arm64.raw.zst",
+							"kind": "sysext"
+						},
+						{
+							"name": "SHA256SUMS",
+							"size": 1022,
+							"sha256": "39d9ca3c76063c356aad9b7a29b1193149861c0704f543103a5c0f650320b2f9",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge/SHA256SUMS",
+							"kind": "manifest"
+						},
+						{
+							"name": "SHA256SUMS.gpg",
+							"size": 566,
+							"sha256": "a4cb467b16c133026c8dcf6b32413c8b9bbd234c3c8ef2fc6d3063e1a6f354b7",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge/SHA256SUMS.gpg",
+							"kind": "signature"
+						}
+					]
+				},
+				{
+					"version": "26101902",
+					"date": "2026-10-19T09:15:51Z",
+					"files": [
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26101902.raw.zst",
+							"size": 2043914240,
+							"sha256": "5f2aa46426833b7139a9f5500c40ed7ca9055d3a6adf4f11991b7e2748b820b2",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge/samsung-gtactive3wifi_phosh_edge_26101902.raw.zst",
+							"kind": "install-raw"
+						},
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26101902.efi",
+							"size": 61870080,
+							"sha256": "17b43d474c691ba9fa710624c4989bd225e0f5f585c7ed30987a6f8d42fbceba",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge/samsung-gtactive3wifi_phosh_edge_26101902.efi",
+							"kind": "uki"
+						},
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26101902.usr-arm64.5200f6e028bddfd6d60efee789f8777a.raw.zst",
+							"size": 1634969600,
+							"sha256": "1aa00e373e1143fc13458cb5fdf4d63ca4ab007dbe38b27f9903cd6cd66f1c96",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge/samsung-gtactive3wifi_phosh_edge_26101902.usr-arm64.5200f6e028bddfd6d60efee789f8777a.raw.zst",
+							"kind": "usr"
+						},
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26101902.usr-arm64-verity.5200f6e028bddfd6d60efee789f8777a.raw.zst",
+							"size": 12591104,
+							"sha256": "be83b36d07058b2833f1317124ffccd581f7daee1547e87a47bbb8c5d5d2072f",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge/samsung-gtactive3wifi_phosh_edge_26101902.usr-arm64-verity.5200f6e028bddfd6d60efee789f8777a.raw.zst",
+							"kind": "usr-verity"
+						},
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26101902.dev-tools-sysext-arm64.raw.zst",
+							"size": 187695104,
+							"sha256": "d696d24da35c9289c747e2de49c41325960413a12a8dcd8519477f50d7d8e5cd",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge/samsung-gtactive3wifi_phosh_edge_26101902.dev-tools-sysext-arm64.raw.zst",
+							"kind": "sysext"
+						},
+						{
+							"name": "SHA256SUMS",
+							"size": 1022,
+							"sha256": "39d9ca3c76063c356aad9b7a29b1193149861c0704f543103a5c0f650320b2f9",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge/SHA256SUMS",
+							"kind": "manifest"
+						},
+						{
+							"name": "SHA256SUMS.gpg",
+							"size": 566,
+							"sha256": "a4cb467b16c133026c8dcf6b32413c8b9bbd234c3c8ef2fc6d3063e1a6f354b7",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge/SHA256SUMS.gpg",
+							"kind": "signature"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "samsung-gtactive3wifi_phosh_edge-dev",
+			"ui": "phosh",
+			"flavour": "dev",
+			"title": "Phosh",
+			"description": "Phosh development build: adds the USB debug layer (root shell, ssh and adb over USB without a password). For development tablets only.",
+			"prerelease": true,
+			"verified": false,
+			"latest": "26102218",
+			"versions": [
+				{
+					"version": "26102218",
+					"date": "2026-10-22T19:03:44Z",
+					"files": [
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26102218.raw.zst",
+							"size": 2141431808,
+							"sha256": "06b437fac97f876ac0d1fe079f32675c96a912376c09fa27a434dfccb57840fc",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge-dev/samsung-gtactive3wifi_phosh_edge_26102218.raw.zst",
+							"kind": "install-raw"
+						},
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26102218.efi",
+							"size": 61865984,
+							"sha256": "14524d29b7273b151fb38ffe6b1f9d4c5a6565fcb31e36869f5f16145c8e4830",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge-dev/samsung-gtactive3wifi_phosh_edge_26102218.efi",
+							"kind": "uki"
+						},
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26102218.usr-arm64.a82e71a53a0e982db155eb97ab9f8ea3.raw.zst",
+							"size": 1633921024,
+							"sha256": "b77f13cb4c9cdb2f35718ee0ca85e706055738d2a8b58d810d477985c586f5d5",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge-dev/samsung-gtactive3wifi_phosh_edge_26102218.usr-arm64.a82e71a53a0e982db155eb97ab9f8ea3.raw.zst",
+							"kind": "usr"
+						},
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26102218.usr-arm64-verity.a82e71a53a0e982db155eb97ab9f8ea3.raw.zst",
+							"size": 12582912,
+							"sha256": "ab2a8708b5a88c56fd7b5224b81b9570556671302750170c0850f0b0a5266fab",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge-dev/samsung-gtactive3wifi_phosh_edge_26102218.usr-arm64-verity.a82e71a53a0e982db155eb97ab9f8ea3.raw.zst",
+							"kind": "usr-verity"
+						},
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26102218.dev-tools-sysext-arm64.raw.zst",
+							"size": 187695104,
+							"sha256": "a615a7b41a2780646a36d45d9b1929195b793e6b201d7262b8195fc70cde4cbf",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge-dev/samsung-gtactive3wifi_phosh_edge_26102218.dev-tools-sysext-arm64.raw.zst",
+							"kind": "sysext"
+						},
+						{
+							"name": "SHA256SUMS",
+							"size": 1022,
+							"sha256": "22def83564d3e6e3b66fe85b708c55b30d97360f1d46513f190f62f5d7ad3330",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge-dev/SHA256SUMS",
+							"kind": "manifest"
+						},
+						{
+							"name": "SHA256SUMS.gpg",
+							"size": 566,
+							"sha256": "07cd93bc8e16a9c1adb68da4a82ebdaf3fb15732d5b53832510029df43f52d8b",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge-dev/SHA256SUMS.gpg",
+							"kind": "signature"
+						}
+					]
+				},
+				{
+					"version": "26102214",
+					"date": "2026-10-22T13:27:10Z",
+					"files": [
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26102214.raw.zst",
+							"size": 2148771840,
+							"sha256": "49fa163f74d35945dea8704b4e78827ca1cc94e0655faa95a805273acf8be5fe",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge-dev/samsung-gtactive3wifi_phosh_edge_26102214.raw.zst",
+							"kind": "install-raw"
+						},
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26102214.efi",
+							"size": 61870080,
+							"sha256": "47ae9163fa8fa809fb947627bc522ad833908864bc33caaee3a74ca172e2ef09",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge-dev/samsung-gtactive3wifi_phosh_edge_26102214.efi",
+							"kind": "uki"
+						},
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26102214.usr-arm64.9b2f523ae00fc88a9b04feb22a19c9c3.raw.zst",
+							"size": 1634969600,
+							"sha256": "076331118d1a82290ce3d8415db4520cf7aa28531368fe3362516d25f7c84d04",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge-dev/samsung-gtactive3wifi_phosh_edge_26102214.usr-arm64.9b2f523ae00fc88a9b04feb22a19c9c3.raw.zst",
+							"kind": "usr"
+						},
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26102214.usr-arm64-verity.9b2f523ae00fc88a9b04feb22a19c9c3.raw.zst",
+							"size": 12591104,
+							"sha256": "b1442fed7ef87234c5b7b69c383a88395f81d74c5abd67a6056686c7ce38a1d9",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge-dev/samsung-gtactive3wifi_phosh_edge_26102214.usr-arm64-verity.9b2f523ae00fc88a9b04feb22a19c9c3.raw.zst",
+							"kind": "usr-verity"
+						},
+						{
+							"name": "samsung-gtactive3wifi_phosh_edge_26102214.dev-tools-sysext-arm64.raw.zst",
+							"size": 187695104,
+							"sha256": "60314377f9d9503dc98bd6d70055de5f15921bf6dc436f63584ce29f195a0b73",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge-dev/samsung-gtactive3wifi_phosh_edge_26102214.dev-tools-sysext-arm64.raw.zst",
+							"kind": "sysext"
+						},
+						{
+							"name": "SHA256SUMS",
+							"size": 1022,
+							"sha256": "22def83564d3e6e3b66fe85b708c55b30d97360f1d46513f190f62f5d7ad3330",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge-dev/SHA256SUMS",
+							"kind": "manifest"
+						},
+						{
+							"name": "SHA256SUMS.gpg",
+							"size": 566,
+							"sha256": "07cd93bc8e16a9c1adb68da4a82ebdaf3fb15732d5b53832510029df43f52d8b",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_phosh_edge-dev/SHA256SUMS.gpg",
+							"kind": "signature"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "samsung-gtactive3wifi_gnome_edge",
+			"ui": "gnome",
+			"flavour": "release",
+			"title": "GNOME",
+			"description": "GNOME for everyone: postmarketOS Duranium with the exynos-linux kernel and drivers.",
+			"prerelease": false,
+			"verified": true,
+			"latest": "26102118",
+			"versions": [
+				{
+					"version": "26102118",
+					"date": "2026-10-21T18:42:07Z",
+					"files": [
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26102118.raw.zst",
+							"size": 2311061504,
+							"sha256": "00b3b6dd85484b7e5a6163ee86018e782c0d3704a74cd10592450d8c8b70718d",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge/samsung-gtactive3wifi_gnome_edge_26102118.raw.zst",
+							"kind": "install-raw"
+						},
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26102118.efi",
+							"size": 61865984,
+							"sha256": "39d36487f0593ee1b4d45e52d6faf7c6e98c05321fa574147fb44c833f66ebea",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge/samsung-gtactive3wifi_gnome_edge_26102118.efi",
+							"kind": "uki"
+						},
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26102118.usr-arm64.81d9944eb200e22fa13102fc661af6d5.raw.zst",
+							"size": 1908408320,
+							"sha256": "41f11d681ec8e7705485782ebf43c08dc560955150210b21c7dd92de04d0df88",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge/samsung-gtactive3wifi_gnome_edge_26102118.usr-arm64.81d9944eb200e22fa13102fc661af6d5.raw.zst",
+							"kind": "usr"
+						},
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26102118.usr-arm64-verity.81d9944eb200e22fa13102fc661af6d5.raw.zst",
+							"size": 12582912,
+							"sha256": "dd5b8377600cd6ba3372f942a4c1e056b58df41a933e758bf707aa8e75175977",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge/samsung-gtactive3wifi_gnome_edge_26102118.usr-arm64-verity.81d9944eb200e22fa13102fc661af6d5.raw.zst",
+							"kind": "usr-verity"
+						},
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26102118.dev-tools-sysext-arm64.raw.zst",
+							"size": 187695104,
+							"sha256": "adc213bbb1aa6a101696691403965c0db0333fbe5c00a37bb07495ccc9a5e878",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge/samsung-gtactive3wifi_gnome_edge_26102118.dev-tools-sysext-arm64.raw.zst",
+							"kind": "sysext"
+						},
+						{
+							"name": "SHA256SUMS",
+							"size": 1022,
+							"sha256": "eab7dfa6d9ac3649f91a0392ce29ef2fb67acafb59e7f6ca3310242a5c4f6e8b",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge/SHA256SUMS",
+							"kind": "manifest"
+						},
+						{
+							"name": "SHA256SUMS.gpg",
+							"size": 566,
+							"sha256": "2a23a6949fdd0457026b41bf853c33a913a846a4c3b2e9c134872328ee416900",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge/SHA256SUMS.gpg",
+							"kind": "signature"
+						}
+					]
+				},
+				{
+					"version": "26101902",
+					"date": "2026-10-19T09:15:51Z",
+					"files": [
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26101902.raw.zst",
+							"size": 2318401536,
+							"sha256": "5891166db99037a926e037155726ae4dda87fa4be9c9228fa5906ca377e0be7e",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge/samsung-gtactive3wifi_gnome_edge_26101902.raw.zst",
+							"kind": "install-raw"
+						},
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26101902.efi",
+							"size": 61870080,
+							"sha256": "3fb2b4a7e144d05773c84143ae6fe9c5e46f8af76080125e4a79e20a29a30f1c",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge/samsung-gtactive3wifi_gnome_edge_26101902.efi",
+							"kind": "uki"
+						},
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26101902.usr-arm64.695cf9de249909db6482ecb0b4b4f420.raw.zst",
+							"size": 1909456896,
+							"sha256": "037b33edd6a67ca58d7cce722c0a6079ba8712d2d163f0a17d8f0265b1940090",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge/samsung-gtactive3wifi_gnome_edge_26101902.usr-arm64.695cf9de249909db6482ecb0b4b4f420.raw.zst",
+							"kind": "usr"
+						},
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26101902.usr-arm64-verity.695cf9de249909db6482ecb0b4b4f420.raw.zst",
+							"size": 12591104,
+							"sha256": "7e3308df0eeb65bff6f8d77b200dcf2a20d0f47853497e4937181de51d5e2c98",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge/samsung-gtactive3wifi_gnome_edge_26101902.usr-arm64-verity.695cf9de249909db6482ecb0b4b4f420.raw.zst",
+							"kind": "usr-verity"
+						},
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26101902.dev-tools-sysext-arm64.raw.zst",
+							"size": 187695104,
+							"sha256": "b02e6525a1bc6e884af4d366632773d74146f046036abd5636b4dedc4a8cf6ca",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge/samsung-gtactive3wifi_gnome_edge_26101902.dev-tools-sysext-arm64.raw.zst",
+							"kind": "sysext"
+						},
+						{
+							"name": "SHA256SUMS",
+							"size": 1022,
+							"sha256": "eab7dfa6d9ac3649f91a0392ce29ef2fb67acafb59e7f6ca3310242a5c4f6e8b",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge/SHA256SUMS",
+							"kind": "manifest"
+						},
+						{
+							"name": "SHA256SUMS.gpg",
+							"size": 566,
+							"sha256": "2a23a6949fdd0457026b41bf853c33a913a846a4c3b2e9c134872328ee416900",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge/SHA256SUMS.gpg",
+							"kind": "signature"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "samsung-gtactive3wifi_gnome_edge-dev",
+			"ui": "gnome",
+			"flavour": "dev",
+			"title": "GNOME",
+			"description": "GNOME development build: adds the USB debug layer (root shell, ssh and adb over USB without a password). For development tablets only.",
+			"prerelease": true,
+			"verified": false,
+			"latest": "26102218",
+			"versions": [
+				{
+					"version": "26102218",
+					"date": "2026-10-22T19:03:44Z",
+					"files": [
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26102218.raw.zst",
+							"size": 2415919104,
+							"sha256": "f82614afe6a0bbe09036d73d672ebd917427c31c942a4067f5bf3fca6aa8a9cd",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge-dev/samsung-gtactive3wifi_gnome_edge_26102218.raw.zst",
+							"kind": "install-raw"
+						},
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26102218.efi",
+							"size": 61865984,
+							"sha256": "4838e141f8de2b2afe1cc941115c49b1d5468bb337046c64fc75d2a64b44d18d",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge-dev/samsung-gtactive3wifi_gnome_edge_26102218.efi",
+							"kind": "uki"
+						},
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26102218.usr-arm64.103665eb4699b830ac6262eac0d8aca6.raw.zst",
+							"size": 1908408320,
+							"sha256": "6dd4f0f2773c4d6b9774ab7e6b3794d4d4f83dc0721f342b7997f7829402a582",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge-dev/samsung-gtactive3wifi_gnome_edge_26102218.usr-arm64.103665eb4699b830ac6262eac0d8aca6.raw.zst",
+							"kind": "usr"
+						},
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26102218.usr-arm64-verity.103665eb4699b830ac6262eac0d8aca6.raw.zst",
+							"size": 12582912,
+							"sha256": "6eb9b328f253725c7f707db3d32429da0f9d0b9ceddf100be5d0059481b523df",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge-dev/samsung-gtactive3wifi_gnome_edge_26102218.usr-arm64-verity.103665eb4699b830ac6262eac0d8aca6.raw.zst",
+							"kind": "usr-verity"
+						},
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26102218.dev-tools-sysext-arm64.raw.zst",
+							"size": 187695104,
+							"sha256": "666e9677f9c57e96079d0ad4481ab93c3b3d9b3ff77e36ea8b5cc0b9cf8e8cf3",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge-dev/samsung-gtactive3wifi_gnome_edge_26102218.dev-tools-sysext-arm64.raw.zst",
+							"kind": "sysext"
+						},
+						{
+							"name": "SHA256SUMS",
+							"size": 1022,
+							"sha256": "9c2d7d88e2bf898b2905cfb66df2da3afb88bb845394261c170524ced18c4777",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge-dev/SHA256SUMS",
+							"kind": "manifest"
+						},
+						{
+							"name": "SHA256SUMS.gpg",
+							"size": 566,
+							"sha256": "2184d37b3b32eb073effd8de11fd7478150a6504dbed49ba441b929fd8d878cf",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge-dev/SHA256SUMS.gpg",
+							"kind": "signature"
+						}
+					]
+				},
+				{
+					"version": "26102214",
+					"date": "2026-10-22T13:27:10Z",
+					"files": [
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26102214.raw.zst",
+							"size": 2423259136,
+							"sha256": "59fa4b75301f5338b0451e2264e2483ae7c800812b95ff4d4a9ebeca64454d9a",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge-dev/samsung-gtactive3wifi_gnome_edge_26102214.raw.zst",
+							"kind": "install-raw"
+						},
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26102214.efi",
+							"size": 61870080,
+							"sha256": "4a7607e1bf60abc0ae34d0f6e014acd957b08868ec07b44f74ed9f29b6544bfb",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge-dev/samsung-gtactive3wifi_gnome_edge_26102214.efi",
+							"kind": "uki"
+						},
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26102214.usr-arm64.95195c8aacfb35d3c76039d80444e4fd.raw.zst",
+							"size": 1909456896,
+							"sha256": "fc2e4dfbd3224323e67641ccb593d05dc3f69948dced0468e981541b2a50d0f0",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge-dev/samsung-gtactive3wifi_gnome_edge_26102214.usr-arm64.95195c8aacfb35d3c76039d80444e4fd.raw.zst",
+							"kind": "usr"
+						},
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26102214.usr-arm64-verity.95195c8aacfb35d3c76039d80444e4fd.raw.zst",
+							"size": 12591104,
+							"sha256": "52b90a6c9b38689bc988c283a62b25fed01da10ef257bb19e8a9e227164ee21b",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge-dev/samsung-gtactive3wifi_gnome_edge_26102214.usr-arm64-verity.95195c8aacfb35d3c76039d80444e4fd.raw.zst",
+							"kind": "usr-verity"
+						},
+						{
+							"name": "samsung-gtactive3wifi_gnome_edge_26102214.dev-tools-sysext-arm64.raw.zst",
+							"size": 187695104,
+							"sha256": "e30574e9fca5eb864da02b009c64564e707493d68029baf639f62e25b1fc484f",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge-dev/samsung-gtactive3wifi_gnome_edge_26102214.dev-tools-sysext-arm64.raw.zst",
+							"kind": "sysext"
+						},
+						{
+							"name": "SHA256SUMS",
+							"size": 1022,
+							"sha256": "9c2d7d88e2bf898b2905cfb66df2da3afb88bb845394261c170524ced18c4777",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge-dev/SHA256SUMS",
+							"kind": "manifest"
+						},
+						{
+							"name": "SHA256SUMS.gpg",
+							"size": 566,
+							"sha256": "2184d37b3b32eb073effd8de11fd7478150a6504dbed49ba441b929fd8d878cf",
+							"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_gnome_edge-dev/SHA256SUMS.gpg",
+							"kind": "signature"
+						}
+					]
+				}
+			]
+		}
+	],
+	"bootchain": {
+		"tag": "samsung-gtactive3wifi_bootchain",
+		"prerelease": false,
+		"date": "2026-10-20T11:02:18Z",
+		"files": [
+			{
+				"name": "boot.img",
+				"size": 3145728,
+				"sha256": "6f49298337235e69fec6aa32e2c17c09ff46627abd2a18d64323adffcdd09ec5",
+				"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_bootchain/boot.img"
+			},
+			{
+				"name": "u-boot.bin",
+				"size": 712704,
+				"sha256": "586a72d8605275479846be6a1612165206ec3a11167e9bd3795b8f96fa48b580",
+				"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_bootchain/u-boot.bin"
+			},
+			{
+				"name": "SHA256SUMS",
+				"size": 160,
+				"sha256": "37c76ee5883a1ad04d488d73fb0577d8baacb36d5b4578f0430218c66c8c613f",
+				"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_bootchain/SHA256SUMS"
+			},
+			{
+				"name": "SHA256SUMS.gpg",
+				"size": 566,
+				"sha256": "b434b987d77efc48bb47b8e7547e154fde3856614cf6c28db039d4ea31d12a64",
+				"url": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/samsung-gtactive3wifi_bootchain/SHA256SUMS.gpg"
+			}
+		]
+	}
+}

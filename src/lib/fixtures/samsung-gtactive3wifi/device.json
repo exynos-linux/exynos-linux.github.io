@@ -1,0 +1,61 @@
+{
+	"schema": 1,
+	"generated": "2026-10-23T06:17:29Z",
+	"project": {
+		"template": false,
+		"repo": "exynos-linux/samsung-gtactive3wifi",
+		"title": "Galaxy Tab Active3 (mainline)",
+		"maintainers": [
+			"@dixonSolutions"
+		],
+		"community": "https://discord.gg/exynos-linux",
+		"license": "GPL-2.0-only"
+	},
+	"device": {
+		"vendor": "samsung",
+		"codename": "gtactive3wifi",
+		"id": "samsung-gtactive3wifi",
+		"name": "Galaxy Tab Active3",
+		"models": [
+			"SM-T570"
+		],
+		"form_factor": "tablet",
+		"arch": "aarch64",
+		"soc": "exynos9810",
+		"soc_name": "Exynos 9810",
+		"status": "testing"
+	},
+	"images": {
+		"release": "edge",
+		"uis": [
+			"phosh",
+			"gnome"
+		],
+		"default_ui": "phosh"
+	},
+	"ui": {
+		"phosh": {
+			"title": "Phosh",
+			"description": "The phone and tablet shell from the GNOME family."
+		},
+		"gnome": {
+			"title": "GNOME",
+			"description": "The GNOME desktop, with a touch-friendly setup."
+		}
+	},
+	"channels": {
+		"dev": true,
+		"release": true,
+		"keep": 2
+	},
+	"update": {
+		"base": "https://github.com/exynos-linux/samsung-gtactive3wifi/releases/download/",
+		"pages": "https://exynos-linux.github.io/samsung-gtactive3wifi",
+		"public_key": "pmos/sysupdate-public-key.asc",
+		"fingerprint": "0000 1111 2222 3333 4444  5555 6666 7777 8888 9999"
+	},
+	"bootchain": {
+		"enabled": true,
+		"tag": "samsung-gtactive3wifi_bootchain"
+	}
+}

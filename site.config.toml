@@ -1,0 +1,77 @@
+# Configuration of the exynos-linux.github.io site.
+#
+# This file is the only place the site's devices are listed. It is read at
+# build time (vite.config.ts parses it with smol-toml and validates it); a
+# mistake here fails the build with a message naming the key. Everything in
+# it is public.
+#
+# Adding a device = adding one [[devices]] block at the end of this file.
+# The site then fetches that device repo's published records
+# (<pages>/device.json and <pages>/releases.json) at build time and again in
+# the visitor's browser, so downloads are never stale.
+
+[site]
+# Shown in the header, the <title> of every page and link previews.
+title = "exynos-linux"
+# One sentence for search engines and link previews (<meta name=description>).
+description = "Community ports of postmarketOS Duranium to Samsung Exynos devices, running the mainline Linux kernel."
+# The public URL the site is served at, without a trailing slash. Used for
+# canonical links. The org site lives at the root, so there is no base path.
+url = "https://exynos-linux.github.io"
+
+[org]
+# The GitHub organisation's display name.
+name = "exynos-linux"
+# The GitHub organisation (no trailing slash).
+github = "https://github.com/exynos-linux"
+# The template every device repo is created from.
+template = "https://github.com/exynos-linux/device-template"
+
+[community]
+# The Discord invite link. Replace the placeholder with a real, non-expiring
+# invite (Server settings > Invites, "Expire after: never").
+discord = "https://discord.gg/exynos-linux"
+# Where the code of conduct lives (shown on /community).
+code_of_conduct = "https://github.com/exynos-linux/.github/blob/main/CODE_OF_CONDUCT.md"
+
+# One block per device, in the order they appear on the site.
+#
+#   id     (required) The postmarketOS device name, "<vendor>-<codename>".
+#          It is the page URL (/devices/<id>) and must match device.id in
+#          the device repo's config.toml.
+#   repo   (required) The device repo on GitHub, "owner/name".
+#   pages  (optional) Base URL of that repo's GitHub Pages, without a
+#          trailing slash; device.json, releases.json and
+#          sysupdate-public-key.asc are fetched from it.
+#          Default: https://<owner>.github.io/<name>
+#
+# Fallback fields, shown only while the device's published device.json
+# cannot be fetched (a new repo without Pages yet, or GitHub being down).
+# The published record always wins.
+#
+#   name         (optional) Marketing name, e.g. "Galaxy Tab Active3".
+#   models       (optional) Model numbers, e.g. ["SM-T570"].
+#   soc_name     (optional) e.g. "Exynos 9810".
+#   status       (optional) "bring-up" | "testing" | "stable". Default "bring-up".
+#   form_factor  (optional) "tablet" | "phone" | "other". Default "other".
+
+[[devices]]
+id = "samsung-gtactive3wifi"
+repo = "exynos-linux/samsung-gtactive3wifi"
+pages = "https://exynos-linux.github.io/samsung-gtactive3wifi"
+name = "Galaxy Tab Active3"
+models = ["SM-T570"]
+soc_name = "Exynos 9810"
+status = "testing"
+form_factor = "tablet"
+
+# The next port, once its repo exists:
+#
+# [[devices]]
+# id = "samsung-gtactive5"
+# repo = "exynos-linux/samsung-gtactive5"
+# name = "Galaxy Tab Active5"
+# models = ["SM-X300"]
+# soc_name = "Exynos 1380"
+# status = "bring-up"
+# form_factor = "tablet"
