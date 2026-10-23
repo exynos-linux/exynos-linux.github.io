@@ -48,7 +48,7 @@
 		</Card.Description>
 	</Card.Header>
 
-	<Card.Content class="space-y-4">
+	<Card.Content class="gap-4">
 		{#if flavour === 'dev'}
 			<Alert.Root class="border-amber-600/40 dark:border-amber-400/40">
 				<TriangleAlertIcon class="text-amber-700 dark:text-amber-400" />

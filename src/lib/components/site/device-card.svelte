@@ -38,7 +38,7 @@
 			{/if}
 		</div>
 	</Card.Header>
-	<Card.Content class="space-y-4">
+	<Card.Content class="gap-4">
 		<dl class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 text-sm">
 			<dt class="text-muted-foreground">SoC</dt>
 			<dd class="flex items-center gap-1.5"><CpuIcon class="size-3.5 text-muted-foreground" aria-hidden="true" />{view.socName}</dd>

@@ -17,9 +17,11 @@ permissions:
   pages: write
   id-token: write
 
+# One deployment at a time; a queued run waits instead of cancelling a
+# deployment that is already under way.
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -32,6 +34,9 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run check
+      # Fetches every device's device.json and releases.json (site.config.toml);
+      # a device without records yet renders its fallback fields.
+      # SAMPLE_DATA is never set here (tools/vite-plugin-site.ts refuses it in CI).
       - run: npm run build
       - uses: actions/upload-pages-artifact@v5
         with:

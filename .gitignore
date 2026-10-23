@@ -21,3 +21,11 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Claude Code: keep the shared launch.json, not local settings
+.claude/*
+!.claude/launch.json
+
+# Logs
+npm-debug.log*
+*.log

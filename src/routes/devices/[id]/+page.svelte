@@ -191,7 +191,7 @@
 						install guide first: it explains what is erased and how to get back.
 					</Card.Description>
 				</Card.Header>
-				<Card.Content class="space-y-4">
+				<Card.Content class="gap-4">
 					<CodeBlock
 						lines={[`git clone https://github.com/${view.repo}`, `cd ${repoName}`, './setup.sh']}
 					/>
@@ -217,7 +217,7 @@
 						it signed; check the fingerprint before you trust a download.
 					</Card.Description>
 				</Card.Header>
-				<Card.Content class="space-y-3">
+				<Card.Content class="gap-3">
 					{#if view.fingerprint}
 						<div>
 							<p class="mb-1 text-sm font-medium">Fingerprint</p>
